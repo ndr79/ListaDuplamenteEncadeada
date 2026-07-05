@@ -48,3 +48,20 @@ void liberar(Lista* l) {
     }
 }
 
+// Imprime todos os elementos da lista
+// Entrada: lista
+// Retorno: nenhum
+// Pré-condição: nenhuma
+// Pós-condição: os itens da lista são exibidos no console
+void imprimir(Lista* l) {
+    if(vazia(l))
+        printf("Lista vazia.\n");
+    else {
+        printf("[ ");
+        while(l != NULL) {
+            printf("%d ", l->info);
+            l = l->prox;
+        }
+        printf("]\n");
+    }
+}

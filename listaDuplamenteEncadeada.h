@@ -33,4 +33,11 @@ Lista* inserir(Lista* l, TipoItem info);
 // Pós-condição: toda memória ocupada pela lista é liberada
 void liberar(Lista* l);
 
+// Imprime todos os elementos da lista
+// Entrada: lista
+// Retorno: nenhum
+// Pré-condição: nenhuma
+// Pós-condição: os itens da lista são exibidos no console
+void imprimir(Lista* l);
+
 #endif /* listaDuplamenteEncadeada_h */
