@@ -40,4 +40,11 @@ void liberar(Lista* l);
 // Pós-condição: os itens da lista são exibidos no console
 void imprimir(Lista* l);
 
+// Faz a retirada de um item da lista
+// Entrada: lista e o elemento a ser retirado
+// Retorno: lista atualizada
+// Pré-condição: nenhuma
+// Pós-condição: o elemento é retirado da lista
+Lista* retirar(Lista* l, TipoItem x);
+
 #endif /* listaDuplamenteEncadeada_h */
